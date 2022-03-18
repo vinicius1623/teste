@@ -11,7 +11,8 @@ body {
   .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    height: 75vh;
+    width: 75vw;
     border:solid 2px;
     border-radius:20px;
     border-color: #ffffff;
