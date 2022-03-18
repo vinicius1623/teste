@@ -9,7 +9,7 @@ body {
 }
   
   .container {
-    align: center;
+    align-self: center;
     text-align: center;
     padding: 20px;
     height: 75vh;
