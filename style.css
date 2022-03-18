@@ -2,7 +2,7 @@ body {
     font-family: "Roboto Mono", monospace;
     min-height: 400px;
   
-    background-image: url("https://eletrisul.com.br/Content/img/eletrisul/logo-eletrisul.png");
+    background-color: rgb(0, 0, 0);
     background-size: 100vh;
     background-position: center bottom;
     background-repeat: repeat;
