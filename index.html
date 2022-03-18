@@ -7,6 +7,31 @@
     <title>Calculadora de Tensão</title>
 </head>
 <body>
-    <h1>Olá Mundo</h1>
+
+
+<div class="container">
+  <h1 class="page-title">
+    Queda de Tensão
+  </h1>
+  <p class="page-subtitle">
+    (Queda aceitável +- 3%)
+  </p>
+  <img src="https://az184419.vo.msecnd.net/ontario-colleges/Website/images/area-of-study/electrician-aos_20171106214109_0.jpg?w=466&h=261&c=3" class="page-logo" alt=""><br><br>
+  <label for="tensao">Tensão</label><br>
+  <input type="number" id="tensao" size="3" /><br>
+  
+  <label for="corrente">Corrente</label><br>
+  <input type="number" id="corrente" size="3" /><br>
+  
+  <label for="comprimento">Comprimento</label><br>
+  <input type="number" id="comprimento" size="4" /><br>
+  
+  <label for="secao">Seção Nominal do Condutor</label><br>
+  <input type="number" id="secao" size="3" /><br>
+  
+  <button type="submit" onclick="Calcular()">Monofásico Cobre</button>
+  <button type="submit" onclick="CalcularTri()">Trifásico Alumínio</button>
+  <h2 id="valorCalculado"></h2>
+</div>
 </body>
 </html>
