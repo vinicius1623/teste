@@ -9,6 +9,7 @@ body {
 }
   
   .container {
+    align: center;
     text-align: center;
     padding: 20px;
     height: 75vh;
