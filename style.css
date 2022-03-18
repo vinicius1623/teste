@@ -9,11 +9,9 @@ body {
       }
   
   .container {
-    box-align: center;
-    padding: 20px;
-    width: 350px;
-    height: 275px;
-    border-width: 4px;
+    text-align: center;
+  padding: 20px;
+  height: 100vh;
   }
   
   .page-title {
