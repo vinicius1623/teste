@@ -1,11 +1,12 @@
 body {
-    font-family: "Roboto Mono", monospace;
+    
+    font-family: 'Roboto Mono',monospace;
     min-height: 400px;
-  
-    background-color: rgb(0, 0, 0);
-    background-size: 100vh;
+    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-color: #000000;
+    background-size: 80vh;
     background-position: center bottom;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
       }
   
   .container {
